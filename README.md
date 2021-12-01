@@ -4,11 +4,8 @@
 <div class="field-content">Piekļūsti savas laboratorijai vai aplūku publiski pieejamo informāciju un datus par laboratoriju
 </div>
 
-
 <a class="badge" href="/Pieslēgties">Pieslēgties</a>
-
 <a class="badge" href="/Piekļūt publiskiem datiem">Piekļūt publiskiem datiem</a>
-
 
 <html lang="lv" dir="lv" prefix="https://Sizam4ik.github.io/Pieslēgties#" class ="js" >
 <form action="/my-handling-form-page" method="post">
@@ -26,7 +23,6 @@
 <a class="badge" href="/Pieslēgties">Pieslēgties</a>
  
 <html lang="lv" dir="lv" prefix="https://Sizam4ik.github.io/Piekļūt publiskiem datiem#" class ="js" >
-
 <div class="Publiskā datubāze">
 <div class="center">Publiskā datubāze</div>
 </div>
@@ -41,13 +37,11 @@
   <div>
   <input id="search-header-button" data-drupal-selector="edit-submit" type="submit" name="op" value="Search" class="button js-form-submit form-submit btn btn-primary">
    </div>
-<a class="badge" href="/Rādīt visu">Rādīt visu</a>
 
-<a class="badge" href="/Rādīt vielas">Rādīt vielas</a>
-                                                  
-<a class="badge" href="/Rādīt aprīkojumu">Rādīt aprīkojumu</a>
-                                        
-  
+<a class="badge" href="/Rādīt visu">Rādīt visu</a>
+<a class="badge" href="/Rādīt vielas">Rādīt vielas</a>                                               
+<a class="badge" href="/Rādīt aprīkojumu">Rādīt aprīkojumu</a>                                   
+
   <table>
 <tr>
 <td>&nbsp;</td>
