@@ -37,10 +37,12 @@
   <div>
   <input id="search-header-button" data-drupal-selector="edit-submit" type="submit" name="op" value="Search" class="button js-form-submit form-submit btn btn-primary">
    </div>
-
-<a class="badge" href="/Rādīt visu">Rādīt visu</a>
-<a class="badge" href="/Rādīt vielas">Rādīt vielas</a>                                               
-<a class="badge" href="/Rādīt aprīkojumu">Rādīt aprīkojumu</a>                                   
+ <div>
+<a class="badge" href="/Rādīt visu">Rādīt visu</a> </div>
+  <div>
+<a class="badge" href="/Rādīt vielas">Rādīt vielas</a> </div>
+  <div>
+<a class="badge" href="/Rādīt aprīkojumu">Rādīt aprīkojumu</a>    </div>                                
 
   <table>
 <tr>
