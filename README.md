@@ -19,9 +19,25 @@
 <input type=" password" id=" password=" password" />
 </li>
 </ul>
-                                                 
-<a class="badge" href="/Pieslēgties">Pieslēgties</a>
- 
+</div>  
+ <a class="badge" href="/Pieslēgties">Pieslēgties</a>
+   <input type="button" onclick="buttonClick(this)" value="Pieslēgties">
+         <function buttonClick(elem) {
+         elem.value = "users":[
+         {
+            "id": "1",
+            "vards": "Janis",
+            "uzvards": "Kociņš",
+            "loma": "admin",
+            "parole": "12",
+            "Komentāri": "Daži komentāri"
+         }
+         ]
+         }
+             <script src="script.js"> 
+             </body>
+             </html>
+</div> 
 <html lang="lv" dir="lv" prefix="https://Sizam4ik.github.io/Piekļūt publiskiem datiem#" class ="js" >
 <div class="Publiskā datubāze">
 <div class="center">Publiskā datubāze</div>
@@ -37,13 +53,211 @@
   <div>
   <input id="search-header-button" data-drupal-selector="edit-submit" type="submit" name="op" value="Search" class="button js-form-submit form-submit btn btn-primary">
    </div>
- <div>
-<a class="badge" href="/Rādīt visu">Rādīt visu</a> </div>
+ </div>  
+ <a class="badge" href="/Rādīt visu">Rādīt visu</a>
+   <input type="button" onclick="buttonClick(this)" value="Rādīt visu">
+         <function buttonClick(elem) {
+         elem.value = "Rādīt visu":[
+    {
+      "apakstips": "sāls",
+      "daudzums": 100,
+      "id": 2,
+      "komentari": "",
+      "mervienibas": "g",
+      "nosaukums": "Kalcija karbonāts CaCO3",
+      "skaits": 25,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "hidroksīds",
+      "daudzums": 50,
+      "id": 3,
+      "komentari": "Šķīdums izvedots un sapildīts 2020.09.23",
+      "mervienibas": "ml",
+      "nosaukums": "NaOH šķīdums 10%",
+      "skaits": 45,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "skābe",
+      "daudzums": 100,
+      "id": 4,
+      "komentari": "Šķīdums izvedots un sapildīts 2020.10.21",
+      "mervienibas": "ml",
+      "nosaukums": "Sālsskābes HCl šķīdums 20%",
+      "skaits": 24,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "test1",
+      "daudzums": 50,
+      "id": 5,
+      "komentari": "Šķīdums izvedots un sapildīts 2020.09.23",
+      "mervienibas": "ml",
+      "nosaukums": "NaOH šķīdums 10%",
+      "skaits": 45,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "hidroksīds",
+      "daudzums": 100,
+      "id": 6,
+      "komentari": "Šķīdums izvedots un sapildīts 2020.10.21",
+      "mervienibas": "ml",
+      "nosaukums": "NaOH šķīdums 20%",
+      "skaits": 413,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "test2",
+      "daudzums": 50,
+      "id": 7,
+      "komentari": "Šķīdums izvedots un sapildīts lorem ipsum",
+      "mervienibas": "ml",
+      "nosaukums": "NaOH šķīdums 10%",
+      "skaits": 45,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "test2",
+      "daudzums": 5,
+      "id": 8,
+      "komentari": "Šķīdums izvedots un sapildīts lorem ipsum",
+      "mervienibas": "ml",
+      "nosaukums": "Nosaukums lorem ipsum",
+      "skaits": 4,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "test2",
+      "daudzums": 5,
+      "id": 9,
+      "komentari": "Šķīdums izvedots un sapildīts lorem ipsum",
+      "mervienibas": "ml",
+      "nosaukums": "Nosaukums lorem ipsum",
+      "skaits": 4,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "test2",
+      "daudzums": 5,
+      "id": 10,
+      "komentari": "Šķīdums izvedots un sapildīts lorem ipsum",
+      "mervienibas": "ml",
+      "nosaukums": "Nosaukums lorem ipsum",
+      "skaits": 4,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "test2",
+      "daudzums": 5,
+      "id": 11,
+      "komentari": "Šķīdums izvedots un sapildīts lorem ipsum",
+      "mervienibas": "ml",
+      "nosaukums": "Nosaukums lorem ipsum",
+      "skaits": 4,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "test2",
+      "daudzums": 5,
+      "id": 12,
+      "komentari": "Šķīdums izvedots un sapildīts lorem ipsum",
+      "mervienibas": "ml",
+      "nosaukums": "Nosaukums lorem ipsum",
+      "skaits": 4,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "test2",
+      "daudzums": 5,
+      "id": 13,
+      "komentari": "Šķīdums izvedots un sapildīts lorem ipsum",
+      "mervienibas": "ml",
+      "nosaukums": "Nosaukums lorem ipsum",
+      "skaits": 4,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "test2",
+      "daudzums": 5,
+      "id": 14,
+      "komentari": "Šķīdums izvedots un sapildīts lorem ipsum",
+      "mervienibas": "ml",
+      "nosaukums": "Nosaukums lorem ipsum",
+      "skaits": 4,
+      "tips": "reaģents"
+    },
+    {
+      "apakstips": "test2",
+      "daudzums": 5,
+      "id": 15,
+      "komentari": "Šķīdums izvedots un sapildīts lorem ipsum",
+      "mervienibas": "ml",
+      "nosaukums": "Nosaukums lorem ipsum",
+      "skaits": 4,
+      "tips": "reaģents"
+    }
+  ]
+}
+             <script src="script.js"> 
+             </body>
+             </html>
+</div>
+
   <div>
 <a class="badge" href="/Rādīt vielas">Rādīt vielas</a> </div>
-  <div>
-<a class="badge" href="/Rādīt aprīkojumu">Rādīt aprīkojumu</a>    </div>                                
-
+  <</div>  
+ <a class="badge" href="/Rādīt aprīkojumu">Rādīt aprīkojumu</a>
+   <input type="button" onclick="buttonClick(this)" value="Rādīt aprīkojumu">
+         <function buttonClick(elem) {
+         elem.value = "Rādīt aprīkojumu" [
+    {
+      "apakstips": "mehāniskie svari",
+      "id": 1,
+      "komentari": "",
+      "nosaukums": "Mehāniskie svari QWS",
+      "skaits": 5,
+      "tips": "svari"
+    },
+    {
+      "apakstips": "elektroniskie svari",
+      "id": 2,
+      "komentari": "Darbojas uz 3 AAA tipa baterijām",
+      "nosaukums": "Elektroniskie svari ES-25",
+      "skaits": 15,
+      "tips": "svari"
+    },
+    {
+      "apakstips": "plītiņa",
+      "id": 3,
+      "komentari": "Strāvas vada garums 1m",
+      "nosaukums": "Elektriskā plītīņa",
+      "skaits": 8,
+      "tips": "sildītājs"
+    },
+    {
+      "apakstips": "trauki",
+      "id": 4,
+      "komentari": "Kolbas īpaši lielām vielām",
+      "nosaukums": "Milzīgās kolbas",
+      "skaits": 100,
+      "tips": "trauks"
+    },
+    {
+      "apakstips": "stikls",
+      "id": 5,
+      "komentari": "Viegli plīstoša",
+      "nosaukums": "Stikla mēģene",
+      "skaits": 12,
+      "tips": "trauks"
+    }
+  ]
+         }
+             <script src="script.js"> 
+             </body>
+             </html>
+</div>                                
   <table>
 <tr>
 <td>&nbsp;</td>
